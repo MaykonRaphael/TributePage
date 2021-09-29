@@ -41,21 +41,21 @@ header {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-hr {
-    color: #FDB71A;
-}
 strong {
     font-size: 30px;
 }
 .quote {
     font-size: 21px;
     font-weight: bold;
+    border-bottom: 1px solid #FDB71A;
 }
 .about {
     margin-top: 20px;
+    border-bottom: 1px solid #FDB71A;
 }
 .NBA {
     margin-top: 20px;
+    border-bottom: 1px solid #FDB71A;
 }
 .awards strong {
     font-size: 16px;
@@ -63,6 +63,11 @@ strong {
 .awards {
     width: 100%;
     margin-top: 20px;
+    border-bottom: 1px solid #FDB71A;
+}
+ul {
+    display: inline-block;
+    text-align: left;
 }
 footer {
     display: flex;
