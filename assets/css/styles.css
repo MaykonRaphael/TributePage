@@ -1,0 +1,80 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(27, 27, 24);
+}
+header {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    background-color: rgb(27, 27, 24);
+}
+.container {
+    display: flex;
+    width: 990px;
+    justify-content: center;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+#banner {
+    display: flex;
+    justify-content: center;
+    background-image: url('../image/banner1.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 557px;
+    margin-top: 20px;
+}
+#content {
+    display: flex;
+    justify-content: center;
+}
+#content .container {
+    flex-wrap: wrap;
+    color: #F4EDE8;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+hr {
+    color: #FDB71A;
+}
+strong {
+    font-size: 30px;
+}
+.quote {
+    font-size: 21px;
+    font-weight: bold;
+}
+.about {
+    margin-top: 20px;
+}
+.NBA {
+    margin-top: 20px;
+}
+.awards strong {
+    font-size: 16px;
+}
+.awards {
+    width: 100%;
+    margin-top: 20px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+}
+.more {
+    color: #F4EDE8;
+    font-size: 18px;
+    margin-top: -20px;
+}
+a {
+    color: #FDB71A;
+    font-size: 18px;
+    text-decoration: none;
+}
